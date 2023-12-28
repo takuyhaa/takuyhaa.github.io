@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Takuya Taniguchi's Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Takuya Taniguchi's Website">
+<meta name="keywords" content="マテリアルズインフォマティクス,有機固体材料,結晶,メカニカル材料,光化学">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-opening.css">
+<script src="js/fixmenu_pagetop.js"></script>
+<script src="js/openclose.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VFCFLHV0QB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VFCFLHV0QB');
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Takuya Taniguchi's Website"></a></h1>
+
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="profile.html">経歴</a></li>
+<li><a href="research.html">研究内容</a></li>
+<li><a href="achievements.html">発表論文</a></li>
+<li><a href="presentations.html">学会発表</a></li>
+</ul>
+</nav>
+
+<ul class="icon">
+<li><a href="index_eng.html">English</a></li>
+<li><a href="https://twitter.com/hello_abudhabi"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
+</ul>
+
+</header>
+
+<div id="contents">
+<img src="images/header.jpg" alt="header">
+
+<section class="inner first">
+
+<h2>研究内容</h2>
+<h3>機械学習による新規材料探索</h3>
+<p>機械学習は、多数の材料のデータで構成されたデータセットから、材料開発のための知見を得るための手段です。
+Pythonなどのプログラミング言語を使い、これまでに蓄積してきたデータセットから知見を見出し、新しい材料を開発することを目指しています。
+例えば、有機分子は構造式によって2次元で表すことができますが、様々な手法によってその分子構造をベクトル化またはグラフ化することができます。
+分子を数理に表現することで機械学習(ML)によって分析でき、求める物性値をもつ分子構造の設計につなげることができます。
+<img src="images/ML.png" alt="ML">
+</p><br>
+
+<h3>統計モデリングによる機能制御</h3>
+<p>材料の機能は多くの場合実験条件に依存しており、外部条件（温度や光強度、波長etc.）や材料自体のサイズや形状によって出力が異なります。
+そのため、どういった条件のときにどれくらいの出力があるかという関係性を実験だけで得ようとすると、異なる条件で膨大な数の実験をする必要があります。
+この問題を解消するには、データ科学を活用して実験条件と出力の関係性を数理的に表現することが有効です。
+これまでに、光を当てると曲がる結晶（フォトメカニカル結晶）の屈曲挙動を、機械学習に基づく回帰分析によって数理的に表現することに成功しています。(CrystEngComm, 2021)。
+<img src="images/modeling.png" alt="modeling">
+</p><br>
+
+<h3>刺激応答性メカニカル結晶</h3>
+<p>結晶材料は一般的に硬いものと思われがちですが、光や熱といった刺激によって大きく変形できるメカニカル結晶が見出され、ソフトアクチュエータ材料としての活用が期待されています。
+博士課程での研究で、光異性化や熱相転移、ならびに光トリガー相転移(下図)という新しい相転移機構でメカニカル機能を創出してきました。
+現在は、データ科学も活用しながら、メカニカル結晶の力学特性の評価や光トリガー相転移の動的挙動解析、新規結晶の創製を行っています。
+<img src="images/transition.png" alt="transition">
+</p>
+
+</section>
+
+
+<footer>
+<small>Copyright© <a href="index.html">Takuya Taniguchi</a> All Rights Reserved.</small>
+<span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+</footer>
+
+</div>
+<!--/#contents-->
+
+</div>
+<!--/#container-->
+
+<!--オープニングアニメーション
+<aside id="mainimg">
+<img src="images/1.png" alt="" class="photo photo1">
+<img src="images/1.png" alt="" class="photo photo2">
+<img src="images/1.png" alt="" class="photo photo3">
+<img src="images/1.png" alt="" class="photo photo4">
+<img src="images/1.png" alt="" class="photo photo5">
+<img src="images/1.png" alt="" class="photo photo6">
+<img src="images/1.png" alt="" class="photo photo7">
+<img src="images/1.png" alt="" class="photo photo8">
+<img src="images/1.png" alt="" class="photo photo9">
+</aside>
+-->
+
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="profile.html">経歴</a></li>
+<li><a href="research.html">研究内容</a></li>
+<li><a href="achievements.html">発表論文</a></li>
+<li><a href="presentations.html">学会発表</a></li>
+</ul>
+</nav>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理条件設定　800px以下-->
+<script>
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+</body>
+</html>

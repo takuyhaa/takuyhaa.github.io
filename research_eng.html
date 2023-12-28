@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Takuya Taniguchi's Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Takuya Taniguchi's Website">
+<meta name="keywords" content="materials informatics, organic solid materials, crystal, mechanical materials,photochemistry">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-opening.css">
+<script src="js/fixmenu_pagetop.js"></script>
+<script src="js/openclose.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VFCFLHV0QB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VFCFLHV0QB');
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+<h1 id="logo"><a href="index_eng.html"><img src="images/logo.png" alt="Takuya Taniguchi's Website"></a></h1>
+
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="profile_eng.html">Profile</a></li>
+<li><a href="research_eng.html">Research</a></li>
+<li><a href="achievements_eng.html">Publications</a></li>
+<li><a href="Presentations_eng.html">Presentations</a></li>
+</ul>
+</nav>
+
+<ul class="icon">
+<li><a href="index.html">日本語</a></li>
+<li><a href="https://twitter.com/hello_abudhabi"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
+</ul>
+
+</header>
+
+<div id="contents">
+<img src="images/header.jpg" alt="header">
+
+<section class="inner first">
+
+<h2>Research</h2>
+<h3>Material design by machine learning</h3>
+<p>Machine learning is a means of gaining knowledge for materials development from a data set consisting of data on a large number of materials.
+Using data sciece algorithms based on Python and other programming languages, we aim to discover knowledge from the data sets we have accumulated so far and develop novel materials.
+For example, an organic molecule can be represented in two dimensions by a structural formula, and its molecular structure can be vectorized or graphed by various methods.
+Mathematical representations of molecules can be analyzed by machine learning (ML) and lead to the design of molecular structures with the desired physical properties.
+<img src="images/ML.png" alt="ML">
+</p><br>
+
+<h3>Functionality modeling by statistical regression</h3>
+<p>The function of a material often depends on the experimental conditions, and the output varies depending on the external conditions (temperature, light intensity, wavelength, etc.) and the size and shape of the material itself. Therefore, if we try to obtain the relationship of how much output is obtained under what conditions by experiment alone, we need to conduct a huge number of experiments under different conditions.
+To solve this problem, it is effective to use data science to express the relationship between experimental conditions and output in a mathematical manner. 
+So far, we have succeeded in mathematically representing the bending behavior of a crystal that bends when exposed to light (photomechanical crystal) by using regression analysis based on machine learning.(CrystEngComm, 2021)。
+<img src="images/modeling.png" alt="modeling">
+</p><br>
+
+<h3>Mechanically responsive molecular crystals</h3>
+<p>Crystalline materials are generally thought to be hard, but mechanical crystals that can be significantly deformed by stimuli such as light and heat have been discovered and are expected to be used as soft actuator materials.
+In my doctoral research, I have created mechanical functions using new phase transition mechanisms such as photoisomerization, thermal phase transition, and photo-triggered phase transition (see below).
+Currently, I am working on the evaluation of mechanical properties of mechanical crystals, analysis of the dynamic behavior of photo-triggered phase transitions, and creation of new crystals, while also utilizing data science.
+<img src="images/transition.png" alt="transition">
+</p>
+</section>
+
+<footer>
+<small>Copyright© <a href="index.html">Takuya Taniguchi</a> All Rights Reserved.</small>
+<span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+</footer>
+
+</div>
+<!--/#contents-->
+
+</div>
+<!--/#container-->
+
+<!--オープニングアニメーション-->
+<!--
+<aside id="mainimg">
+<img src="images/1.png" alt="" class="photo photo1">
+<img src="images/1.png" alt="" class="photo photo2">
+<img src="images/1.png" alt="" class="photo photo3">
+<img src="images/1.png" alt="" class="photo photo4">
+<img src="images/1.png" alt="" class="photo photo5">
+<img src="images/1.png" alt="" class="photo photo6">
+<img src="images/1.png" alt="" class="photo photo7">
+<img src="images/1.png" alt="" class="photo photo8">
+<img src="images/1.png" alt="" class="photo photo9">
+</aside>
+-->
+
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="profile_eng.html">Profile</a></li>
+<li><a href="research_eng.html">Research</a></li>
+<li><a href="achievements_eng.html">Publications</a></li>
+<li><a href="presentations_eng.html">Presentations</a></li>
+</ul>
+</nav>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理条件設定　800px以下-->
+<script>
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+</body>
+</html>
